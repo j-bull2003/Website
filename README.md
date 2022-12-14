@@ -3,7 +3,7 @@
 # Hi there, I'm Jessica 👋 
 
 
-## I'm a jnuior software engineer!!
+## I'm a junior software engineer!!
 
 - 🌱 I’m currently learning everything 🤣
 - 👯 I’m looking to collaborate with other content creators
