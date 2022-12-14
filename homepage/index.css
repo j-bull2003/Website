@@ -1,0 +1,62 @@
+/* Index styling */
+/* This is the styling for the three main topics in the index file */
+body, .section1, .section2, .section3 {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+        /* For the top navigation bar */
+        .topnav {
+          overflow: hidden;
+          background-color: #333;
+        }
+
+        .topnav a {
+          float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+
+        .topnav a.active {
+          background-color: #5477f7;
+          color: white;
+        }
+
+/* To make my profile image a circle */
+img {
+  border-radius: 50%;
+  text-align: center;
+}
+
+
+/* For the styling of the click me and sumbit buttons */
+button {
+  background-color: #5477f7;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* To place all text in main section of webpage in middle (besides three main subjects) */
+body {
+  text-align: center;
+}
+
+/* To align three main subjects on left side of page */
+[role=alert] {
+text-align: left;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--This is where I link all the css and js files, as well as add bootstrap for extra effects-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="index.css" rel="stylesheet">
+        <script src="script.js"></script>
+        <title>My Webpage</title>
+      </head>
+
+        <!--This is the top navigation that appears on top of screen (only home is displayed)-->
+        <body>
+            <div class="topnav">
+                <a class="active" href="index.html">Home</a>
+            </div>
+
+    <!--This is another javascript interaction-->
+
+        <!--Prompts user to input name-->
+        <br><br>
+        <h2>"hello world!"</h2>
+
+        <h5 >What's your name?</h5>
+
+        <!--Allow for input-->
+        <input id="userInput"> <br><br>
+        <button onclick="myFunction()" > Submit </button>
+
+        <!--Reveal message-->
+        <br><br>
+        <p id="message"></p>
+        <br><br>
+
+
+    <!--This is the three main sections of my webpage headings-->
+
+        <!--Prompts user to click on link to take to education.html file-->
+        <div class="alert alert-primary" role="alert">
+            <h2 class="header alert-heading text" >Education</h2>
+            <b class="text">Information Technology Bachelors Degree</b>
+            <hr>
+            <p class="mb-0 text">Undergraduate studies: <a href="education.html" class="alert-link">here</a></p>
+        </div>
+
+        <!--Prompts user to click on link to take to biography.html file-->
+        <div class="alert alert-dark grey" role="alert">
+            <h2 class="header alert-heading text" >Biography</h2>
+            <b class="text">My ambitions and personal advancements</b>
+            <hr>
+            <p class="mb-0 text">Why did I chose software engineering? <a href="biography.html">here</a></p>
+        </div>
+
+        <!--Prompts user to click on link to take to experience.html file-->
+        <div class="alert alert-primary" role="alert">
+            <h2 class="header alert-heading text" >Experience</h2>
+            <b class="text">Skills proficiency and industry exposure</b>
+            <hr>
+            <p class="mb-0 text">Programming experience: <a href="experience.html" class="alert-link">here</a></p>
+        </div>
+
+
+    </body>
+</html>
