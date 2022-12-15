@@ -5,10 +5,10 @@
 
 ## I'm a junior software engineer!!
 
-- 🌱 I’m currently learning everything 🤣
-- 👯 I’m looking to collaborate with other content creators
-- 🥅 2022 Goals: Create more projects 
-- ⚡ Fun fact: I love reading
+- 🌱 I’m most interested in python
+- 📚 I'm currently completing my bachelors degree in Information Technology
+- 🥅 2022 Goals: Create more projects and develop my skills
+- 🎀 Fun fact: I love reading, swimming and going to the sauna
 
 
 <br />
